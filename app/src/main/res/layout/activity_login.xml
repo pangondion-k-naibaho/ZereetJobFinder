@@ -27,7 +27,8 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="80dp"
         android:clickable="true"
-        android:background="@drawable/bg_blue_facebook">
+        android:background="@drawable/bg_blue_facebook"
+        android:focusable="true">
 
         <ImageView
             android:id="@+id/iv_icfb"
@@ -67,42 +68,22 @@
         android:textColor="@color/black"
         android:text="@string/txt_or"/>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_authgoogle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_or"
+        app:layout_constraintTop_toBottomOf="@id/tv_or"
+        android:layout_marginHorizontal="30dp"
         android:layout_marginTop="80dp"
-        android:layout_marginHorizontal="50dp"
+        android:drawableLeft="@drawable/google_icon"
         android:background="@drawable/bg_white"
-        tools:ignore="MissingConstraints">
-
-        <ImageView
-            android:id="@+id/iv_icgoogle"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_margin="10dp"
-            android:src="@drawable/google_logo"/>
-
-        <TextView
-            android:id="@+id/tv_btngoogle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@+id/iv_icgoogle"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/iv_icgoogle"
-            app:layout_constraintBottom_toBottomOf="@id/iv_icgoogle"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:text="@string/btn_txt_login_google"/>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="@string/btn_txt_login_google"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

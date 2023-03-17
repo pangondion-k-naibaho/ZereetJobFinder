@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "201765511072",
+    "project_id": "zereet-56b06",
+    "storage_bucket": "zereet-56b06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201765511072:android:8c2143eee4932514e1cec5",
+        "android_client_info": {
+          "package_name": "com.pangondionkn.zereetjobfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201765511072-0tabhmflb1rm43icomgaqi4h7hhqtrh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfxbpXx6E-lNT88wbTg_gn4YIyiP0X5zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201765511072-0tabhmflb1rm43icomgaqi4h7hhqtrh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
