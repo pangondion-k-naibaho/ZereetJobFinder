@@ -3,4 +3,6 @@
     <string name="btn_txt_login_fb">Continue with Facebook</string>
     <string name="btn_txt_login_google">Continue with Google</string>
     <string name="txt_or">OR</string>
+    <string name="txt_menu_job">Job</string>
+    <string name="txt_menu_account">Account</string>
 </resources>
