@@ -74,7 +74,7 @@ class LoginActivity : AppCompatActivity() {
                 loginViewModel.firebaseAuthWithGoogle(account.idToken!!)
                 Log.d(TAG, "User ${account.displayName} Signed in Successfully")
                 startActivity(
-                    DashboardActivity.newIntent(this@LoginActivity, account.displayName.toString(), account.photoUrl.toString())
+                    PortalActivity.newIntent(this@LoginActivity, account.displayName.toString(), account.photoUrl.toString())
                 )
             }catch (e:ApiException){
                 Log.e(TAG, e.message.toString())

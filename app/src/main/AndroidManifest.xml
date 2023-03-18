@@ -17,6 +17,10 @@
         android:theme="@style/Theme.ZereetJobFinder"
         tools:targetApi="31">
         <activity
+            android:name=".view.activity.PortalActivity"
+            android:exported="false"
+            android:label="@string/title_activity_portal" />
+        <activity
             android:name=".view.activity.DashboardActivity"
             android:exported="false" />
         <activity
